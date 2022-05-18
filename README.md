@@ -50,6 +50,8 @@ This controller consists of two methods defined below:
 
 - `def query_db(self, obj_id:int)`: takes in the parameter `obj_id` from the user to be used to query the table for a record whose `id` matches  `obj_id`
 
+## Note
 
+The `main()` method defines the workflow of the running of the  program to execute the requisite functionalities. Defined also in the `main()` method, are the test data sets to be passed into the respective methods. This test data sets can be altered to aid in further testing.
 
 
