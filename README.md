@@ -54,4 +54,8 @@ This controller consists of two methods defined below:
 
 The `main()` method defines the workflow of the running of the  program to execute the requisite functionalities. Defined also in the `main()` method, are the test data sets to be passed into the respective methods. This test data sets can be altered to aid in further testing.
 
+The `*_data_set` test data are sample inputs to save into the database/csv file.
+
+The `*_query_set` test data are sample ids to query against the database/csv file.
+
 
