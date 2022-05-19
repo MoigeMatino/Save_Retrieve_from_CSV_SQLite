@@ -6,6 +6,8 @@ This program defines two controllers that define how to save and retrieve data f
 
 To run this program:
 
+Make sure to have [Python 3.7+](https://www.python.org/downloads/) installed on your machine
+
 Clone this repository to your local machine using:
 
 ```sh
@@ -14,7 +16,7 @@ git clone https://github.com/MoigeMatino/Save_Retrieve_from_CSV_SQLite
 
 ## Running
 
-To run the program, `cd` into the project then run this command (on Windows):
+To run the program, `cd` into the project directory then run this command(on Windows):
 
 ```sh
 python main.py 
@@ -54,8 +56,8 @@ This controller consists of two methods defined below:
 
 The `main()` method defines the workflow of the running of the  program to execute the requisite functionalities. Defined also in the `main()` method, are the test data sets to be passed into the respective methods. This test data sets can be altered to aid in further testing.
 
-The `*_data_set` test data are sample inputs to save into the database/csv file.
+The `*_data_set` test data contains sample inputs to save into the database/csv file.
 
-The `*_query_set` test data are sample ids to query against the database/csv file.
+The `*_query_set` test data contains sample ids to query against the database/csv file.
 
 
